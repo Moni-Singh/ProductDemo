@@ -8,6 +8,10 @@ import android.widget.Toast;
 
 import com.example.taskdemo.R;
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
 public class HelperMethod {
 
 

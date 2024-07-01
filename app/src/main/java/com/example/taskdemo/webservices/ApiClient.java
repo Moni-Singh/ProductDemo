@@ -1,5 +1,10 @@
 package com.example.taskdemo.webservices;
 
+<<<<<<< HEAD
+=======
+import com.example.taskdemo.utils.Constants;
+
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 

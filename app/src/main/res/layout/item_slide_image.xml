@@ -8,10 +8,17 @@
     <ImageView
         android:id="@+id/sliderImage"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="200dp"
         android:layout_margin="5dp"
         android:background="@drawable/nature"
         android:scaleType="centerInside" />
+=======
+        android:layout_height="190dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/nature"
+        android:scaleType="fitCenter" />
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
 
     <TextView
         android:id="@+id/tvImageName"

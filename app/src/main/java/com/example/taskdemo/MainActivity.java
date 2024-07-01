@@ -4,8 +4,13 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+<<<<<<< HEAD
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+=======
+import androidx.appcompat.widget.Toolbar;
+import androidx.appcompat.app.AppCompatActivity;
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -13,8 +18,14 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+<<<<<<< HEAD
 import com.example.taskdemo.ui.tab.bookmark.BookmarkFragment;
 import com.example.taskdemo.ui.tab.discover.DiscoverFragment;
+=======
+import com.example.taskdemo.ui.tab.alpabetic.AlphabeticFragment;
+import com.example.taskdemo.ui.tab.bookmark.BookmarkFragment;
+import com.example.taskdemo.ui.tab.discover.CoordinatorFragment;
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
 import com.example.taskdemo.ui.tab.photo.PhotoFragment;
 import com.example.taskdemo.utils.Constants;
 import com.google.android.material.appbar.AppBarLayout;
@@ -33,7 +44,10 @@ public class MainActivity extends AppCompatActivity {
     private CollapsingToolbarLayout collapsingToolbarLayout;
     private Toolbar toolbar;
     private TabLayout tabLayout;
+<<<<<<< HEAD
     public static List<Integer> likeProducts = new ArrayList<>();
+=======
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,10 +71,17 @@ public class MainActivity extends AppCompatActivity {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+<<<<<<< HEAD
         adapter.addFrag(new DiscoverFragment(), Constants.DISCOVER);
         adapter.addFrag(new PhotoFragment(), Constants.PHOTO);
         adapter.addFrag(new BookmarkFragment(), Constants.BOOKMARK);
 
+=======
+        adapter.addFrag(new CoordinatorFragment(), Constants.DISCOVER);
+        adapter.addFrag(new PhotoFragment(), Constants.PHOTO);
+        adapter.addFrag(new BookmarkFragment(), Constants.BOOKMARK);
+        adapter.addFrag(new AlphabeticFragment(), Constants.ALPHABETIC);
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
 
         viewPager.setAdapter(adapter);
     }

@@ -1,6 +1,9 @@
 package com.example.taskdemo.webservices.gallery;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
 import com.example.taskdemo.gallerymodels.response.GalleryDataResponse;
 
 import retrofit2.Call;

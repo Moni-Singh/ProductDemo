@@ -29,12 +29,33 @@ public class ApplicationSharedPreferences {
         return sharedPreferences.getString("token", null);
     }
 
+<<<<<<< HEAD
     // Method to save login status
     public void setIsLoggedIn(boolean isLoggedIn) {
         editor.putBoolean(KEY_IS_LOGGED_IN, isLoggedIn);
         editor.apply();
     }
 
+=======
+
+
+//    public void setIsLoggedIn(boolean isLoggedIn) {
+//        SharedPreferences sharedPreferences = context.getSharedPreferences("sharedPrefs", Context.MODE_PRIVATE);
+//        SharedPreferences.Editor editor = sharedPreferences.edit();
+//        editor.putBoolean("isLoggedIn", isLoggedIn);
+//        editor.apply();
+//    }
+// Method to save login status
+public void setIsLoggedIn(boolean isLoggedIn) {
+    editor.putBoolean(KEY_IS_LOGGED_IN, isLoggedIn);
+    editor.apply();
+}
+
+    // Method to retrieve login status
+    public boolean isLoggedIn() {
+        return sharedPreferences.getBoolean(KEY_IS_LOGGED_IN, false);
+    }
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
     public void clearToken() {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.remove("token");

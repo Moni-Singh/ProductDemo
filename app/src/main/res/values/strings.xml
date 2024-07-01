@@ -4,10 +4,14 @@
     <string name="action_settings">Settings</string>
     <string name="action_manage">Manage Account</string>
 
+<<<<<<< HEAD
     <string name="price">Price</string>
     <string name="category">Category</string>
     <string name="description">Description</string>
     <string name="title">ProductTitle</string>
+=======
+
+>>>>>>> edfe99dd9d45dbc37732bc6193191ed7edd03b23
     <string name="hello_world">Hello world!</string>
 
     <string name="hello">Sample Android Design Support Library App</string>
